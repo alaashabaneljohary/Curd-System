@@ -1,0 +1,89 @@
+/* Start Global Rouels */
+ body 
+ {
+    
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #222;
+
+ }
+
+/* End Global Rouels */
+
+header 
+{
+    padding: 15px 0;
+    background-color: #203239;
+}
+header h1 
+{
+    color: #FFF;
+    text-transform: capitalize;    
+    font-family: cursive;
+    font-size: 20px;
+}
+header .icons {
+    position: relative;
+}
+header .icons i 
+{
+    color: #fff;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    letter-spacing: 2px;
+}
+header .icons i:hover
+{
+    color: brown;
+}
+.inputList input {
+    width: 100%;
+    background-color: #000;
+    outline: none;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 15px;
+   border: 0;
+   border-radius: 8px;
+   transition: transform 0.4s ease-in;
+}
+.inputList input:focus {
+    transform: scale(1.1);
+}
+#inputPrice input {
+    width: 20%;
+}
+#ProdctTotal {
+    background-color:brown;
+    padding: 5px;
+    color: #fff;
+    overflow: hidden;
+}
+#ProdctTotal::before {
+    content: "Total : ";
+}
+.btn-input {
+    width: 100%;
+    border: 0;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    transition: all 0.4s ease;
+    font-family: monospace;
+}
+.btn-input:hover 
+{
+    background-color: #041C32;
+    color: #fff;
+}
+#updatePro:hover , #deletePro:hover
+{
+    cursor: pointer;
+    background-color: #041C32;
+    color: #FFF;
+}
